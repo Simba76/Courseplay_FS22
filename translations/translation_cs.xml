@@ -213,9 +213,9 @@
     <text name="CP_vehicle_setting_debugActive_title" text="车辆调试"/>
     <text name="CP_vehicle_setting_debugActive_tooltip" text="启用/禁用此车辆的调试。"/>
     <text name="CP_vehicle_setting_refillOnTheField_title" text="农机具补给模式"/>
-<text name="CP_vehicle_setting_refillOnTheField_tooltip" text="启用田间自动补给功能（需配合补给车辆使用）"/>
-<text name="CP_vehicle_setting_refillOnTheField_waiting" text="待命状态"/>
-<text name="CP_vehicle_setting_refillOnTheField_active" text="补给激活"/>
+    <text name="CP_vehicle_setting_refillOnTheField_tooltip" text="启用田间自动补给功能（需配合补给车辆使用）"/>
+    <text name="CP_vehicle_setting_refillOnTheField_waiting" text="待命状态"/>
+    <text name="CP_vehicle_setting_refillOnTheField_active" text="补给激活"/>
     <!---->
     <!--Vehicle bunker silo settings-->
     <!---->
@@ -454,23 +454,23 @@
     <text name="CP_editor_delete_yesNo_deleteToLastWp_title" text="确认全路径删除?"/>
     <text name="CP_editor_delete_err" text="仅保留最后%d个路径点。"/>
     <text name="CP_editor_course_basic_title" text="基础操作"/>
-<text name="CP_editor_course_basic_move_title" text="移动路径点"/>
-<text name="CP_editor_course_basic_move_primary_text" text="主路径点"/>
-<text name="CP_editor_course_basic_insert_title" text="插入路径点"/>
-<text name="CP_editor_course_basic_insert_primary_text" text="主路径点"/>
-<text name="CP_editor_course_basic_insert_secondary_text" text="辅助路径点"/>
-<text name="CP_editor_course_basic_insert_err" text="禁止在转向点间插入"/>
+    <text name="CP_editor_course_basic_move_title" text="移动路径点"/>
+    <text name="CP_editor_course_basic_move_primary_text" text="主路径点"/>
+    <text name="CP_editor_course_basic_insert_title" text="插入路径点"/>
+    <text name="CP_editor_course_basic_insert_primary_text" text="主路径点"/>
+    <text name="CP_editor_course_basic_insert_secondary_text" text="辅助路径点"/>
+    <text name="CP_editor_course_basic_insert_err" text="禁止在转向点间插入"/>
     <text name="CP_editor_course_advanced_title" text="高级操作"/>
-<text name="CP_editor_course_advanced_changeTurn_title" text="转向点标记"/>
-<text name="CP_editor_course_advanced_changeTurn_primary_text" text="添加/移除转向点（当前点设为转向起始点）"/>
-<text name="CP_editor_course_advanced_changeTurn_err" text="过于接近其他转向点"/>
-<text name="CP_editor_course_advanced_moveExtended_title" text="批量移动路径点"/>
-<text name="CP_editor_course_advanced_moveExtended_primary_text" text="主路径组"/>
-<text name="CP_editor_course_advanced_moveExtended_secondary_text" text="辅助路径组"/>
-<text name="CP_editor_course_advanced_curveInsert_title" text="曲线路径插入"/>
-<text name="CP_editor_course_advanced_curveInsert_primary_text" text="主曲线路径点"/>
-<text name="CP_editor_course_advanced_curveInsert_secondary_text" text="辅助曲线路径点"/>
-<text name="CP_editor_course_advanced_curveInsert_err" text="禁止选择转向点"/>
+    <text name="CP_editor_course_advanced_changeTurn_title" text="转向点标记"/>
+    <text name="CP_editor_course_advanced_changeTurn_primary_text" text="添加/移除转向点（当前点设为转向起始点）"/>
+    <text name="CP_editor_course_advanced_changeTurn_err" text="过于接近其他转向点"/>
+    <text name="CP_editor_course_advanced_moveExtended_title" text="批量移动路径点"/>
+    <text name="CP_editor_course_advanced_moveExtended_primary_text" text="主路径组"/>
+    <text name="CP_editor_course_advanced_moveExtended_secondary_text" text="辅助路径组"/>
+    <text name="CP_editor_course_advanced_curveInsert_title" text="曲线路径插入"/>
+    <text name="CP_editor_course_advanced_curveInsert_primary_text" text="主曲线路径点"/>
+    <text name="CP_editor_course_advanced_curveInsert_secondary_text" text="辅助曲线路径点"/>
+    <text name="CP_editor_course_advanced_curveInsert_err" text="禁止选择转向点"/>
     <!---->
     <!--Info texts-->
     <!---->
@@ -607,8 +607,7 @@ Courseplay 允许您生成具有附加功能的任务路线，例如：地头。
 - 地块式：联合收割机推荐方案，保持卸粮管在作物外侧以提高卸粮效率
 - 赛道式：青贮收割专用，减少狭窄转向降低卸料难度
 - 螺旋式：牵引式收割机优化方案，保持农机具在作物行内而拖拉机在外侧"/>
-
-<text name="CP_help_page_courseGeneratorCenterFunctions_text" text="
+    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text="
    作业模式选择：
   1 往复式：标准往返作业模式（最常用）
   2 螺旋式：中心向外螺旋扩展
@@ -629,21 +628,16 @@ Courseplay 允许您生成具有附加功能的任务路线，例如：地头。
 - 赛道圈数（仅赛道式）：设置环形路径的循环次数
 "/>
     <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text="往复式"/>
-<text name="CP_help_page_courseGeneratorCenterExampleLands_text" text="地块式"/>
-<text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text="螺旋式"/>
-<text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text="赛道式"/>
-    <!-- 障碍物处理说明 -->
-<text name="CP_help_page_courseGeneratorIsland_text" text="当前版本仅支持全环绕障碍物模式。当障碍物距离田界小于农机作业宽度时，系统将根据地头层容纳数自动判定可行性：障碍物-田界间距需容纳至少1层地头区域。"/>
-
-<!-- 障碍物功能配置 -->
-<text name="CP_help_page_courseGeneratorIslandFunctions_text" text="
+    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text="地块式"/>
+    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text="螺旋式"/>
+    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text="赛道式"/>
+    <text name="CP_help_page_courseGeneratorIsland_text" text="当前版本仅支持全环绕障碍物模式。当障碍物距离田界小于农机作业宽度时，系统将根据地头层容纳数自动判定可行性：障碍物-田界间距需容纳至少1层地头区域。"/>
+    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text="
 - 绕行开关：检测到障碍物时自动激活（自定义田地除外）
 - 环绕层数：独立配置障碍物周边路径圈数
 - 环绕方向：统一设定避免路径冲突（需结合地形特征调整）
 "/>
-
-<!-- 专家模式说明 -->
-<text name="CP_help_page_courseGeneratorExpert_text" text="需在全局设置中启用专家模式后显示以下参数。修改前请确保理解基础功能，部分参数需特定条件生效：
+    <text name="CP_help_page_courseGeneratorExpert_text" text="需在全局设置中启用专家模式后显示以下参数。修改前请确保理解基础功能，部分参数需特定条件生效：
 
 - 多机协同：多农机联合作业配置（详见独立帮助文档）
 - 窄型优化：仅在短边生成地头（长边无法保持车辆在田内）
@@ -654,11 +648,10 @@ Courseplay 允许您生成具有附加功能的任务路线，例如：地头。
 重要警告：如生成路径不理想，说明当前地形不适配此功能且后续无更新计划！
 "/>
     <text name="CP_help_page_courseGeneratorHeadland_title" text="地头路径配置"/>
-<text name="CP_help_page_courseGeneratorCenter_title" text="主作业区策略"/>
-<text name="CP_help_page_courseGeneratorIsland_title" text="障碍物处理模块"/>
-<text name="CP_help_page_courseGeneratorExpert_title" text="高级参数配置"/>
-<text name="CP_help_page_courseManager_title" text="作业任务管理"/>
-
+    <text name="CP_help_page_courseGeneratorCenter_title" text="主作业区策略"/>
+    <text name="CP_help_page_courseGeneratorIsland_title" text="障碍物处理模块"/>
+    <text name="CP_help_page_courseGeneratorExpert_title" text="高级参数配置"/>
+    <text name="CP_help_page_courseManager_title" text="作业任务管理"/>
     <text name="CP_help_page_courseManagerBase_text" text="
 任务管理器允许您保存任务并允许您稍后再次加载保存的任务。 
 当您想让多个工人为车队（多工具）驾驶同一路线时，这一点非常重要。 
